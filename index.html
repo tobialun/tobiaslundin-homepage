@@ -39,7 +39,7 @@
             background-image: url('https://64.media.tumblr.com/f5a49d2b136ebe65d1fe1a1d7e749ae8/tumblr_inline_p7n8qiex5F1txh7gv_1280.jpg');
             background-size: cover;
             background-position: center;
-            height: 80px;
+            height: 40px;
         }
 
         .user-avatar {
@@ -48,7 +48,7 @@
             width: 128px;
             height: 128px;
             border-radius: 50%;
-            margin: 10px auto 20px;
+            margin: 20px auto 20px;
             position: relative;
             box-shadow: 0 0 0 4px #ffffff;
         }
@@ -89,6 +89,11 @@
             display: inline-block;
             vertical-align: middle;
             margin: 5px;
+            transition: transform 0.2s ease;
+        }
+
+        .thumbnail:hover {
+            transform: scale(1.15);
         }
 
         .social-links {
